@@ -1,0 +1,15 @@
+l1 = [20,8,43,2,21,15]
+print(l1)
+l1.sort()
+print("Sorted",l1)
+l1.reverse()
+print("Reverse :",l1)
+l1.append(78)
+l1.append(100)
+print("append : ",l1)
+l1.insert(0,52)#adds 52 @ index 0
+print("Updated (insert) : ",l1)
+l1.pop(3)
+print("POP : ",l1)
+l1.remove(43)
+print("Remove : ",l1)
